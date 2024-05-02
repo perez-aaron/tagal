@@ -12,6 +12,9 @@ import '/slide.dart';
 import 'name.dart';
 import 'friendsummary.dart';
 import 'main.dart';
+import 'package:exer5/providers/slam_provider.dart';
+import 'package:exer5/models/slam_model.dart';
+import 'package:provider/provider.dart';
 
 
 class MainForm extends StatefulWidget {
@@ -108,6 +111,18 @@ class _MainFormState extends State<MainForm> {
                   onPressed: () {//For done button logic
                     if (_formKey.currentState != null && _formKey.currentState!.validate()) {
                       _formKey.currentState?.save();
+                      
+                      Slam temp = Slam(//making a new slam item for adding
+                      name: text,
+                      nickname: text2,
+                      age: text3,
+                      happiness: _value,
+                      status: _inRelationship,
+                      superpower: _super,
+                      motto: _motto);
+
+                      context.read<SlamListProvider>().addSlam(temp);//for adding a new entry
+
                       setState(() {
 
                         showText = true;

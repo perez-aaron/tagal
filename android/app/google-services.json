@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "271811734394",
+    "project_id": "cmsc23-exer8-19d7e",
+    "storage_bucket": "cmsc23-exer8-19d7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271811734394:android:267df662b9eafab89fc4c3",
+        "android_client_info": {
+          "package_name": "com.example.exer5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ6Nu3q5sjQA_jffPb4Ab9c58fr-LGpng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
