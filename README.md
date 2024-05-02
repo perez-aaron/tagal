@@ -1,22 +1,26 @@
-# Week 5: Menu, Routes, and Navigation
+# Week 8: Data Persistence
 
 **Name:** Aaron Jacob C. Perez <br/>
 **Section:** U-2L <br/>
-**Student number:** 2022-69580 <br/>
+**Student number:** 2022 - 69580 <br/>
 
 ## Code Description
 
-The code is a digital slambook that makes use of various form fields to get input from the user with functionality of saving the different people that inputted in the slambook.
+This code adds database functionality to a slambook app where one can add and save friends to their slambook. Updated to have delete and edit functionality as well.
+
 ## Things you did in the code
 
-I made use of different widgets like the textformfield, dropdownbutton, switch and others to make a digital slambook. This is done through combination of said widgets as well as buttons for saving and resetting the form fields. Aside from this, I made use of navigation widgets like drawer and routes to link the different parts of the app together.
+I made use of providers, models and api folders to create functions for adding, editing and deleting the slambook entries as well as getting the data from the cloud firestore. There were also some minor changes to the previous files where I needed to tweak what was being passed to the pages as I know used a provider. 
+
 ## Challenges encountered
 
-It was difficult tracing how the different parts should go together.
+A challenge I encountered was the database not loading and so it just keeps on loading without displaying the friend list. I found out that I can just hot reload to combat this, however I have not been able to find fixes yet. 
 
 ## Commit Log
 
 1. Initial commit
+2. Edited README.md
+3. Added functionality for add, edit and delete
 
 ## References
 
