@@ -6,8 +6,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:week7_networking_discussion/models/todo_model.dart';
-import 'package:week7_networking_discussion/providers/todo_provider.dart';
+import '../models/todo_model.dart';
+import '../providers/todo_provider.dart';
 
 class TodoModal extends StatelessWidget {
   String type;

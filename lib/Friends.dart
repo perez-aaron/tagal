@@ -36,6 +36,8 @@ class _FriendsState extends State<Friends> {
         stream: slamsStream,
         builder: (context, snapshot) {
 
+            print(snapshot.connectionState);
+
             if (snapshot.hasError) {//catchers for errors
             return Center(
               child: Text("Error encountered! ${snapshot.error}"),
